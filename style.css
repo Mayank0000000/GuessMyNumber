@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nosifer', cursive;
+}
+body {
+  background-color: #222;
+  color: #eee;
+}
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 10rem;
+  size: 3rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: red;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(15px 15px 15px red);
+}
+.between {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.number {
+  position: absolute;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  top: 81%;
+  left: 45%;
+  right: 50%;
+  border: solid;
+  width: 7rem;
+  padding: 1rem;
+  border-color: black;
+  border-width: 0.1rem;
+  background-color: #eee;
+}
+header {
+  position: relative;
+  height: 30vh;
+  border-bottom: 7px solid #eee;
+}
+.message {
+  position: absolute;
+  left: 75%;
+  font-size: 2rem;
+  bottom: 40%;
+}
+.label-score {
+  position: absolute;
+  left: 75%;
+  font-size: 2rem;
+  bottom: 30%;
+}
+.label-highscore {
+  position: absolute;
+  left: 75%;
+  font-size: 2rem;
+  bottom: 20%;
+}
+.Guess {
+  position: absolute;
+  right: 70%;
+  font-size: 2rem;
+  bottom: 35%;
+  padding: 2rem;
+  width: 25rem;
+  text-align: center;
+}
+.btn-check {
+  position: absolute;
+  left: 10%;
+  font-size: 2rem;
+  bottom: 20%;
+  padding: 2rem;
+  width: 15rem;
+  border: solid;
+  border-radius: 2rem;
+  border-color: #eee;
+}
+.btn-check:hover {
+  border: solid;
+}
+.Guess:hover {
+  border: solid;
+}
